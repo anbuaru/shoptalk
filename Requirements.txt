@@ -1,1 +1,21 @@
+# Data
+pandas
+numpy
+pyarrow
+datasets
+tqdm
 
+# Embeddings and models
+sentence-transformers
+transformers
+
+# Vector DB
+chromadb
+
+# RAG
+langchain
+
+# API and UI
+fastapi
+uvicorn
+gradio
