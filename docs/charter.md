@@ -17,19 +17,19 @@ Accept spoken queries as well as typed ones (voice is mandatory, built after tex
 Deliver a deployed, documented prototype with a REST endpoint and a basic UI.
 3. Example queries
 #	Query	Type
-1	“Women’s sandals under $30”	Attribute and price filter
+   a.	“Women’s sandals under $30”	Attribute and price filter
 
-2	“Waterproof hiking boots”	Attribute
+   b. “Waterproof hiking boots”	Attribute
 
-3	“A black leather wallet”	Spoken (voice phase)
+   c.	“A black leather wallet”	Spoken (voice phase)
 
-4	“A gift for someone who loves coffee”	Vague / semantic
+   d.	“A gift for someone who loves coffee”	Vague / semantic
 
-5	“A comfortable chair for a small living room”	Vague / semantic
+   e.	“A comfortable chair for a small living room”	Vague / semantic
 
-6	“Gold earrings under $25”	Attribute and price filter
+   f.	“Gold earrings under $25”	Attribute and price filter
 
-7	“Show me something similar but cheaper”	Follow-up
+   g.	“Show me something similar but cheaper”	Follow-up
 
 
 These are initial targets. Revisit them after the first baseline results (Phase 5) and record any changes with the reason.
@@ -87,14 +87,23 @@ Nine weeks, by phase (details in the project plan):
 
 Weeks	Phase
 1	Setup and research (Phases 1-2)
+
 2-3	Data preparation and evaluation set (Phases 3-4)
+
 4	Embedding experiments and fine-tuning (Phase 5)
+
 5	RAG pipeline and API (Phases 6-7)
+
 6	UI (Phase 8)
+
 7	Testing and evaluation of the text version (Phase 9)
+
 8	Voice input (Phase 10)
+
 9	Deployment and documentation (Phases 11-12)
+
 9. Deliverables
+    
 Colab notebooks and fine-tuned models
 Preprocessed data with documentation of the steps
 RAG and inference code, plus the AWS deployment code and documentation
