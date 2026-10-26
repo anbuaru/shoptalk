@@ -4,7 +4,7 @@ Status: Draft v1 · Date: 2026-10-24 · Repo: github.com/anbuaru/shoptalk
 
 1. Problem
 
-Keyword search handles shopping queries poorly. A query like "show me a red shirt for men under $50" mixes a product type, a color, a gender, and a price limit, and a keyword match on those words returns irrelevant or incomplete results. It also misses synonyms ("tee" vs "shirt") and vague requests ("a gift for a coffee lover").
+Keyword search handles shopping queries poorly. A query like "show me a women’s black sandals under $30" mixes a product type, a color, a gender, and a price limit, and a keyword match on those words returns irrelevant or incomplete results. It also misses synonyms ("tee" vs "shirt") and vague requests ("a gift for a coffee lover").
 
 ShopTalk is a shopping assistant that understands natural-language queries, retrieves the most relevant products using embeddings and a vector database, and answers in natural language with product identifiers. It uses Retrieval-Augmented Generation (RAG) with open-source models. The app accepts text first, and voice input is added after the text version works.
 
