@@ -85,7 +85,8 @@ AWS costs run over	Deploy late, use the smallest instance that works, and shut i
 
 Nine weeks, by phase (details in the project plan):
 
-Weeks	Phase
+Weeks	
+Phase:
 1	Setup and research (Phases 1-2)
 
 2-3	Data preparation and evaluation set (Phases 3-4)
