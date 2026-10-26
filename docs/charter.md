@@ -68,7 +68,7 @@ Amazon Berkeley Objects (ABO). Fields used: product title, description, bullet p
 
 7. Risks and mitigations
 Risk	Mitigation
-Price data is sparse in ABO, which weakens "under $50" queries	Check price coverage in the first data exploration. If it is too low, document it and enrich the data or narrow the categories
+ABO has no prices; prices are simulated and labeled, and the catalog is dominated by phone cases, so the data is scoped to about 30 types with a per-type cap.
 Colab free-tier GPU limits slow captioning and fine-tuning	Run captioning as a batch job, save outputs to Drive, use Kaggle as a backup, and restrict to a few product categories
 LLM generation latency exceeds the P95 target	Use small quantized models, limit retrieved context to the top 3-5 products, and compare several models
 The model invents products or details	Prompt it to recommend only from retrieved products, and measure groundedness in review
