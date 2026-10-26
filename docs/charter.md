@@ -18,12 +18,19 @@ Deliver a deployed, documented prototype with a REST endpoint and a basic UI.
 3. Example queries
 #	Query	Type
 1	“Women’s sandals under $30”	Attribute and price filter
+
 2	“Waterproof hiking boots”	Attribute
+
 3	“A black leather wallet”	Spoken (voice phase)
+
 4	“A gift for someone who loves coffee”	Vague / semantic
+
 5	“A comfortable chair for a small living room”	Vague / semantic
+
 6	“Gold earrings under $25”	Attribute and price filter
+
 7	“Show me something similar but cheaper”	Follow-up
+
 
 These are initial targets. Revisit them after the first baseline results (Phase 5) and record any changes with the reason.
 
