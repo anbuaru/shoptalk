@@ -17,13 +17,13 @@ Accept spoken queries as well as typed ones (voice is mandatory, built after tex
 Deliver a deployed, documented prototype with a REST endpoint and a basic UI.
 3. Example queries
 #	Query	Type
-1	"Show me a red shirt for men under $50"	Attribute filters
-2	"Waterproof hiking boots, size 10"	Attributes and specifics
-3	"A gift for someone who loves coffee"	Vague / semantic
-4	"Something cozy for a small living room"	Vague / semantic
-5	"Show me something similar but cheaper"	Follow-up (uses previous results)
-6	Spoken: "Find me a black leather wallet"	Voice (Phase 10)
-4. Success metrics
+1	“Women’s sandals under $30”	Attribute and price filter
+2	“Waterproof hiking boots”	Attribute
+3	“A black leather wallet”	Spoken (voice phase)
+4	“A gift for someone who loves coffee”	Vague / semantic
+5	“A comfortable chair for a small living room”	Vague / semantic
+6	“Gold earrings under $25”	Attribute and price filter
+7	“Show me something similar but cheaper”	Follow-up
 
 These are initial targets. Revisit them after the first baseline results (Phase 5) and record any changes with the reason.
 
