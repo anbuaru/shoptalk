@@ -19,3 +19,28 @@ filtering (e.g. "under $50"), ShopTalk assigns **simulated prices** to ABO produ
 - Price is used only as a metadata filter and is never included in embedded text.
 - Retrieval and generation quality results are therefore unaffected by price, and
   price-filter tests only evaluate the filtering logic, not real-world pricing.
+
+# Data notes
+
+**Source:** Amazon Berkeley Objects (ABO) listings, CC BY 4.0. Credit: Amazon.com.
+Collins et al., "ABO: Dataset and Benchmarks for Real-World 3D Object Understanding", CVPR 2022.
+
+## Pipeline and row counts
+1. 147,702 listings loaded; English text fields extracted.
+2. Scoped to 32 product types, capped at 2,000 per type, plus 1,000 phone cases as distractors: 18,938 rows.
+3. Removed 67 items of type SWATCH: 18,871.
+4. Removed 285 exact duplicate texts: 18,586.
+5. Removed 215 fabric swatch listings found by name: **18,371 final rows**.
+
+## Prices are synthetic
+ABO has no price field. Prices come from `src/preprocess/synthetic_prices.py`: a log-normal distribution per product type, seeded by item ID (deterministic). They are NOT real prices, are flagged `price_is_synthetic = True`, are used only as a filter, and are never part of the embedded text.
+
+## Captions
+Generated with BLIP base (`Salesforce/blip-image-captioning-base`). Looping captions were cleaned (repeated words and phrases), generic captions shared by 50+ products were blanked (about 4.7%), and the rest were appended to `text` as `text_full`.
+
+## Splits
+- Products: train/val/test (80/10/10) by hash of item ID. Fine-tuning uses train only.
+- Queries: dev/test by hash of query text. See `eval/README.md`.
+
+## Where the large files are
+Drive folder: ShopTalk/data (listings_en_final.parquet, images_small/, captions.csv, embeddings/).
