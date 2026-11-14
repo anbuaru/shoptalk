@@ -1,0 +1,20 @@
+id,query,n_relevant,P@5,P@10,MRR,nDCG@10
+q02,men's sandals,50,0.6,0.4,0.3333333333333333,0.35623158861460097
+q05,kids' boots,65,1.0,1.0,1.0,1.0
+q06,women's ankle boots under $60,52,1.0,0.9,1.0,0.92663607790064
+q08,women's sneakers,63,0.6,0.3,1.0,0.46900009332067494
+q09,black leather shoes for men,73,1.0,1.0,1.0,1.0
+q10,comfortable walking shoes,16,1.0,0.9,1.0,0.9337457765456111
+q13,white sneakers,67,1.0,1.0,1.0,1.0
+q17,carry-on suitcase,49,1.0,1.0,1.0,1.0
+q18,a black leather wallet,10,0.8,0.4,1.0,0.5637884576902257
+q21,diamond stud earrings,178,1.0,1.0,1.0,1.0
+q24,a ring with a gemstone,70,0.0,0.0,0.02857142857142857,0.0
+q25,a sterling silver band ring under $50,57,1.0,1.0,1.0,1.0
+q29,a velvet sofa,45,0.6,0.8,0.3333333333333333,0.6410457898283654
+q30,a sectional couch,198,1.0,1.0,1.0,1.0
+q40,abstract wall art,83,1.0,1.0,1.0,1.0
+q41,a framed canvas print,237,1.0,1.0,1.0,1.0
+q42,cotton bed sheets,198,0.6,0.7,1.0,0.6969179698201176
+q45,a gift for someone who loves coffee,242,1.0,1.0,1.0,1.0
+q46,a coffee maker,14,1.0,1.0,1.0,1.0

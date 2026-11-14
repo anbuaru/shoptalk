@@ -1,0 +1,6 @@
+Metric,Original Model,Cleaned Model,Absolute Delta
+P@5,0.8950,0.9370,+0.0420
+P@5_unseen,0.8220,0.8440,+0.0220
+MRR,0.9320,0.9580,+0.0260
+nDCG@10,0.9030,0.9280,+0.0250
+val_synth_MRR,0.7470,0.7420,-0.0050
