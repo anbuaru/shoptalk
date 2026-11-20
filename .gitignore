@@ -230,3 +230,11 @@ data/processed/*
 chroma_db/
 .env
 .venv/
+logs/
+results/
+data/
+models/
+deploy_artifacts/
+*.pem
+src/_backup_before_phase10/
+.ipynb_checkpoints/

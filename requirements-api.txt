@@ -1,0 +1,14 @@
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.14.2
+chromadb==1.5.9
+sentence-transformers==5.7.0
+transformers==5.22.1
+accelerate==1.15.0
+peft==0.21.2
+torch==2.14.1+cu130
+pandas==2.2.3
+numpy==2.4.6
+pyarrow==23.0.1
+requests==2.32.4
+python-multipart>=0.0.9   # Phase 10: audio uploads (FastAPI File/Form)
