@@ -1,0 +1,9 @@
+# Allow-list: only what the image needs. Models, data, logs and results are mounted at run time.
+*
+!Dockerfile
+!requirements-docker.txt
+!src/
+!docker/
+src/_backup_before_phase10/
+**/__pycache__/
+**/*.pyc
